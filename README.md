@@ -3,19 +3,28 @@
 Resource Group Name: cms1978
 
 2. SQL Database
-DB name: cms1978
-Server: cms1978.database.windows.net
-DB region: Southeast Asia 
-Admin login: cmsadmin
-Admin password: CMS4dmin
-Resource group: cms1978
-DB workload env: Development
-DB compute + storage: DTU - Basic
-Press the "Next: Networking" button, then select "Public Endpoint", and set both of the Firewall rules that appear to "Yes".
-Set everything else to default
-Run SQL queries in sql_scripts/ directory after completion, starting from the users table. Don't forget to take screenshots.
 
-3. Storage Account
+DB name: cms1978
+
+Server: cms1978.database.windows.net
+
+DB region: Southeast Asia 
+
+Admin login: cmsadmin
+
+Admin password: CMS4dmin
+
+Resource group: cms1978
+
+DB workload env: Development
+
+DB compute + storage: DTU - Basic
+
+*Press the "Next: Networking" button, then select "Public Endpoint", and set both of the Firewall rules that appear to "Yes".
+*Set everything else to default
+*Run SQL queries in sql_scripts/ directory after completion, starting from the users table. Don't forget to take screenshots.
+
+4. Storage Account
 Resource group: cms1978
 Storage account name: images1978
 Advanced - Allow enabling anonymous access on individual containers: Enable
@@ -26,7 +35,7 @@ From Security + networking > Access keys:
 Blob Storage key: MhpJRYpQl9MGNWKiMnnS271VGYk6Gw2kRSXLb6OP5H8jZ4TMON5M1BMADLI2TIWfMibPzjY917VN+ASti3sqZA==
 Blob connection string: DefaultEndpointsProtocol=https;AccountName=images1978;AccountKey=MhpJRYpQl9MGNWKiMnnS271VGYk6Gw2kRSXLb6OP5H8jZ4TMON5M1BMADLI2TIWfMibPzjY917VN+ASti3sqZA==;EndpointSuffix=core.windows.net
 
-4. Microsoft Entra ID
+5. Microsoft Entra ID
 4.1. App Registration
 Name: cmsEntraID
 Who can use? "Accounts in any organizational directory (Any Microsoft Entra ID tenant - Multitenant) and personal Microsoft accounts (e.g. Skype, Xbox)"
@@ -36,7 +45,7 @@ Secret Key: 35693034-9af6-418b-899a-14861d8daef8
 Client Secret: bq28Q~66UmEEyvHuOCWVEFwTw8GGjS4P91vOma1g
 Application (client) ID: d70e7e78-0a9b-43ed-9c2f-979283ce4fe5
 
-5. Application
+6. Application
 5.2. OPTION 2: Web App (easier)
 Name: udacitycms.azurewebsites.net
 Runtime stack: Python 3.10
