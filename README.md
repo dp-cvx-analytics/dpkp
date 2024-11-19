@@ -70,7 +70,7 @@ Pricing Plan: Free F1
 
 *If you are getting a "Validation failed for a resource" error, pick a different region.*
 
-##After creation:
+## After creation:
 
 *Settings -> Environment variables - Add the following variables (sample values are included, replace them with your values):*
 BLOB_ACCOUNT: image11
@@ -95,7 +95,7 @@ SECRET_KEY: 35693034-9af6-418b-899a-14861d8daef8
 
 CLIENT_ID: d70e7e78-0a9b-43ed-9c2f-979283ce4fe5
 
-###Deployment Center
+### Deployment Center
 
 Source: GitHub
 
