@@ -3,26 +3,18 @@
 Resource Group Name: cms1978
 
 2. SQL Database
-
 DB name: cms1978
-
 Server: cms1978.database.windows.net
-
 DB region: Southeast Asia 
-
 Admin login: cmsadmin
-
 Admin password: CMS4dmin
-
 Resource group: cms1978
-
 DB workload env: Development
-
 DB compute + storage: DTU - Basic
 
-*Press the "Next: Networking" button, then select "Public Endpoint", and set both of the Firewall rules that appear to "Yes".
-*Set everything else to default
-*Run SQL queries in sql_scripts/ directory after completion, starting from the users table. Don't forget to take screenshots.
+*Press the "Next: Networking" button, then select "Public Endpoint", and set both of the Firewall rules that appear to "Yes".*
+*Set everything else to default*
+*Run SQL queries in sql_scripts/ directory after completion, starting from the users table. Don't forget to take screenshots.*
 
 4. Storage Account
 Resource group: cms1978
