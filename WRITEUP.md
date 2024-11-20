@@ -29,4 +29,4 @@
 
 *Detail how the app and any other needs would have to change for you to change your decision in the last section.* 
 
-- Changes that would affect my decision would be new features that would require custom software to be used or if  more complex security or networking requirements arise that require bmore control of the solution's network and securityh configuration. Basically, any additional requirement that requires a VM's flexibility will make me reconsider
+- Changes that would affect my decision would be new features that would require custom software to be used or if  more complex security or networking requirements arise that require more control of the solution's network and security set up. Basically, any additional requirement that requires a VM's flexibility will make me reconsider
