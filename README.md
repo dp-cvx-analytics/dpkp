@@ -19,7 +19,7 @@
 
 ## Storage Account
 - Resource group: cms1978
-- Storage account name: images1978
+- Storage account name: images1978v2
 - Advanced - Allow enabling anonymous access on individual containers: Enable
 - Advanced - Access tier: Cool
 - Network access: Enable public access from all networks (the default)
@@ -28,9 +28,8 @@
 
 ### From Security + networking > Access keys:
 
-- Blob Storage key: WocYkwxUPjdpQxz20NrbIwa+4rN73c8Sb5y7r/Q56Y7ImBtN3iaHDwB2HlHRYZTvzQ/Mv9YUgk6g+AStxK2Vqw==
-
-- Blob connection string: DefaultEndpointsProtocol=https;AccountName=images1978;AccountKey=WocYkwxUPjdpQxz20NrbIwa+4rN73c8Sb5y7r/Q56Y7ImBtN3iaHDwB2HlHRYZTvzQ/Mv9YUgk6g+AStxK2Vqw==;EndpointSuffix=core.windows.net
+- Blob Storage key: 2awOVITpG5ZthdL4SW670C/RorBIcIXrQ+b/tJZ13osPiW94agCT/iVEV0g277pTNPBSEzQ2YPjc+AStqXhnMQ==
+- Blob connection string: DefaultEndpointsProtocol=https;AccountName=images1978v2;AccountKey=2awOVITpG5ZthdL4SW670C/RorBIcIXrQ+b/tJZ13osPiW94agCT/iVEV0g277pTNPBSEzQ2YPjc+AStqXhnMQ==;EndpointSuffix=core.windows.net
 ## Microsoft Entra ID
 ### App Registration
 - Name: cmsEntraID
@@ -57,8 +56,8 @@
 *Settings -> Environment variables - Add the following variables (sample values are included, replace them with your values):*
 - BLOB_ACCOUNT: images1978
 - BLOB_CONTAINER: images
-- BLOB_STORAGE_KEY: WocYkwxUPjdpQxz20NrbIwa+4rN73c8Sb5y7r/Q56Y7ImBtN3iaHDwB2HlHRYZTvzQ/Mv9YUgk6g+AStxK2Vqw==
-- BLOB_CONNECTION_STRING: DefaultEndpointsProtocol=https;AccountName=images1978;AccountKey=WocYkwxUPjdpQxz20NrbIwa+4rN73c8Sb5y7r/Q56Y7ImBtN3iaHDwB2HlHRYZTvzQ/Mv9YUgk6g+AStxK2Vqw==;EndpointSuffix=core.windows.net
+- BLOB_STORAGE_KEY: 2awOVITpG5ZthdL4SW670C/RorBIcIXrQ+b/tJZ13osPiW94agCT/iVEV0g277pTNPBSEzQ2YPjc+AStqXhnMQ==
+- BLOB_CONNECTION_STRING: DefaultEndpointsProtocol=https;AccountName=images1978v2;AccountKey=2awOVITpG5ZthdL4SW670C/RorBIcIXrQ+b/tJZ13osPiW94agCT/iVEV0g277pTNPBSEzQ2YPjc+AStqXhnMQ==;EndpointSuffix=core.windows.net
 - SQL_SERVER: cms1978.database.windows.net
 - SQL_DATABASE: cms1978
 - SQL_USER_NAME: cmsadmin
