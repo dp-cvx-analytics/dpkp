@@ -84,3 +84,5 @@
 
 - Redirect URIs: https://[IP ADDRESS FROM VM or WEB APP ADDRESS]/getAToken
 - logout URL: https://[IP ADDRESS FROM VM or WEB APP ADDRESS]/login
+- Redirect URIs: https://udacitycms1978-g5d2hybfdwbrb8d7.southeastasia-01.azurewebsites.net/getAToken
+- logout URL: https://udacitycms1978-g5d2hybfdwbrb8d7.southeastasia-01.azurewebsites.net/login
