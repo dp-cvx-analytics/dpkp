@@ -39,14 +39,14 @@
 
 ### Secret Creation
 - Secret description: cmsEntraIDsecret
-- Secret Key: 35693034-9af6-418b-899a-14861d8daef8
-- Client Secret: bq28Q~66UmEEyvHuOCWVEFwTw8GGjS4P91vOma1g
-- Application (client) ID: d70e7e78-0a9b-43ed-9c2f-979283ce4fe5
+- Secret Key: 3a4c5c9d-e2a7-4eb2-ae49-880a26a53e9b
+- Client Secret: vnm8Q~wh5EwN~_poCdRdugOJM1w2fXEML1xDDdp9
+- Application (client) ID: 28cf76ec-f6e5-4add-ae7c-76745b03e1e9
 
 ## Application
 ### OPTION 2: Web App (easier)
 
-- Name: udacitycms.azurewebsites.net
+- Name: udacitycms1978.azurewebsites.net
 - Runtime stack: Python 3.10
 - Pricing Plan: Free F1
 
@@ -55,17 +55,17 @@
 ## After creation:
 
 *Settings -> Environment variables - Add the following variables (sample values are included, replace them with your values):*
-- BLOB_ACCOUNT: image11
+- BLOB_ACCOUNT: images1978
 - BLOB_CONTAINER: images
-- BLOB_STORAGE_KEY: MhpJRYpQl9MGNWKiMnnS271VGYk6Gw2kRSXLb6OP5H8jZ4TMON5M1BMADLI2TIWfMibPzjY917VN+ASti3sqZA==
-- BLOB_CONNECTION_STRING: DefaultEndpointsProtocol=https;AccountName=images1978;AccountKey=MhpJRYpQl9MGNWKiMnnS271VGYk6Gw2kRSXLb6OP5H8jZ4TMON5M1BMADLI2TIWfMibPzjY917VN+ASti3sqZA==;EndpointSuffix=core.windows.net
+- BLOB_STORAGE_KEY: WocYkwxUPjdpQxz20NrbIwa+4rN73c8Sb5y7r/Q56Y7ImBtN3iaHDwB2HlHRYZTvzQ/Mv9YUgk6g+AStxK2Vqw==
+- BLOB_CONNECTION_STRING: DefaultEndpointsProtocol=https;AccountName=images1978;AccountKey=WocYkwxUPjdpQxz20NrbIwa+4rN73c8Sb5y7r/Q56Y7ImBtN3iaHDwB2HlHRYZTvzQ/Mv9YUgk6g+AStxK2Vqw==;EndpointSuffix=core.windows.net
 - SQL_SERVER: cms1978.database.windows.net
 - SQL_DATABASE: cms1978
 - SQL_USER_NAME: cmsadmin
 - SQL_PASSWORD: CMS4dmin
-- CLIENT_SECRET: bq28Q~66UmEEyvHuOCWVEFwTw8GGjS4P91vOma1g
-- SECRET_KEY: 35693034-9af6-418b-899a-14861d8daef8
-- CLIENT_ID: d70e7e78-0a9b-43ed-9c2f-979283ce4fe5
+- CLIENT_SECRET: vnm8Q~wh5EwN~_poCdRdugOJM1w2fXEML1xDDdp9
+- SECRET_KEY: 3a4c5c9d-e2a7-4eb2-ae49-880a26a53e9b
+- CLIENT_ID: 28cf76ec-f6e5-4add-ae7c-76745b03e1e9
 
 ### Deployment Center
 
