@@ -28,8 +28,8 @@
 
 ### From Security + networking > Access keys:
 
-- Blob Storage key: 2awOVITpG5ZthdL4SW670C/RorBIcIXrQ+b/tJZ13osPiW94agCT/iVEV0g277pTNPBSEzQ2YPjc+AStqXhnMQ==
-- Blob connection string: DefaultEndpointsProtocol=https;AccountName=images1978v2;AccountKey=2awOVITpG5ZthdL4SW670C/RorBIcIXrQ+b/tJZ13osPiW94agCT/iVEV0g277pTNPBSEzQ2YPjc+AStqXhnMQ==;EndpointSuffix=core.windows.net
+- Blob Storage key: fjQQADW7E1t/GYHl2wpEYCyB686F6KsBCOQJulLAyZNTQVrRVYaCu9+FuEUkB5FMt3N+jiViRPfh+AStTSi0kg==
+- Blob connection string: DefaultEndpointsProtocol=https;AccountName=images1978v2;AccountKey=fjQQADW7E1t/GYHl2wpEYCyB686F6KsBCOQJulLAyZNTQVrRVYaCu9+FuEUkB5FMt3N+jiViRPfh+AStTSi0kg==;EndpointSuffix=core.windows.net
 ## Microsoft Entra ID
 ### App Registration
 - Name: cmsEntraID
@@ -38,9 +38,9 @@
 
 ### Secret Creation
 - Secret description: cmsEntraIDsecret
-- Secret Key: 3a4c5c9d-e2a7-4eb2-ae49-880a26a53e9b
-- Client Secret: vnm8Q~wh5EwN~_poCdRdugOJM1w2fXEML1xDDdp9
-- Application (client) ID: 28cf76ec-f6e5-4add-ae7c-76745b03e1e9
+- Secret Key: d2bbd0d9-f996-40e7-8424-8d80413e6fbb
+- Client Secret: edj8Q~kJFE2X.cCFVlMDxXDvm2BaQKbwPw8GNcSj
+- Application (client) ID: 145b3a0e-3a71-4b56-8b46-d1a0a9dca406
 
 ## Application
 ### OPTION 2: Web App (easier)
@@ -54,17 +54,17 @@
 ## After creation:
 
 *Settings -> Environment variables - Add the following variables (sample values are included, replace them with your values):*
-- BLOB_ACCOUNT: images1978
+- BLOB_ACCOUNT: images1978v2
 - BLOB_CONTAINER: images
-- BLOB_STORAGE_KEY: 2awOVITpG5ZthdL4SW670C/RorBIcIXrQ+b/tJZ13osPiW94agCT/iVEV0g277pTNPBSEzQ2YPjc+AStqXhnMQ==
-- BLOB_CONNECTION_STRING: DefaultEndpointsProtocol=https;AccountName=images1978v2;AccountKey=2awOVITpG5ZthdL4SW670C/RorBIcIXrQ+b/tJZ13osPiW94agCT/iVEV0g277pTNPBSEzQ2YPjc+AStqXhnMQ==;EndpointSuffix=core.windows.net
+- BLOB_STORAGE_KEY: fjQQADW7E1t/GYHl2wpEYCyB686F6KsBCOQJulLAyZNTQVrRVYaCu9+FuEUkB5FMt3N+jiViRPfh+AStTSi0kg==
+- BLOB_CONNECTION_STRING: DefaultEndpointsProtocol=https;AccountName=images1978v2;AccountKey=fjQQADW7E1t/GYHl2wpEYCyB686F6KsBCOQJulLAyZNTQVrRVYaCu9+FuEUkB5FMt3N+jiViRPfh+AStTSi0kg==;EndpointSuffix=core.windows.net
 - SQL_SERVER: cms1978.database.windows.net
 - SQL_DATABASE: cms1978
 - SQL_USER_NAME: cmsadmin
 - SQL_PASSWORD: CMS4dmin
-- CLIENT_SECRET: vnm8Q~wh5EwN~_poCdRdugOJM1w2fXEML1xDDdp9
-- SECRET_KEY: 3a4c5c9d-e2a7-4eb2-ae49-880a26a53e9b
-- CLIENT_ID: 28cf76ec-f6e5-4add-ae7c-76745b03e1e9
+- CLIENT_SECRET: edj8Q~kJFE2X.cCFVlMDxXDvm2BaQKbwPw8GNcSj
+- SECRET_KEY: d2bbd0d9-f996-40e7-8424-8d80413e6fbb
+- CLIENT_ID: 145b3a0e-3a71-4b56-8b46-d1a0a9dca406
 
 ### Deployment Center
 
